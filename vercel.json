@@ -1,0 +1,23 @@
+{
+    "git": {
+        "deploymentEnabled": {
+            "main": true,
+            "development": false,
+            "feature/*": false
+        }
+    },
+    "github": {
+        "enabled": true,
+        "silent": false,
+        "autoAlias": true,
+        "pullRequestPreviewsEnabled": true
+    },
+    "public": false,
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "buildCommand": "pnpm run build",
+    "devCommand": "pnpm run dev",
+    "installCommand": "pnpm install",
+    "framework": "nextjs",
+    "outputDirectory": ".next"
+}
